@@ -1,0 +1,54 @@
+*{
+    font-family: Helvetica;
+}
+body{
+    background-color: #fff;
+}
+
+/* header */
+#header-nav {
+  background-color: #f619c6;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand a{
+    color: white;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.navbar-brand a:hover{
+    text-decoration: none;
+}
+
+#collapsable-nav a{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#collapsable-nav a:hover, #collapsable-nav a:focus{
+    background-color:rgb(223, 219, 219, 0.8);
+    border: 2px solid black;
+    color: black;
+}
+/* end of header */
+
+/* main */
+
+.text{
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 30px;
+    background-color: antiquewhite;
+}
+
+
+/* end of main */
